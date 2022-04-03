@@ -104,4 +104,6 @@ if len(uri_list) > 0:
     add_songs_to_playlist = sp.playlist_add_items(playlist_id=p_id, items=uri_list, position=None)
     print("\nSuccess! You're playlist have been created. Go check your Spotify :)")
 else:
-    print("Sorry, there seems to be no results at all.\nPerhaps the genre was misspelled or it was too specific and narrow to return results. ")
+    print("Sorry, there seems to be no results at all."
+          "\nPerhaps the genre was misspelled or it was too specific and narrow to return results."
+          "\n\nClick here to check out Spotify's genre list: https://spotify-top.com/genres")
