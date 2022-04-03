@@ -1,5 +1,8 @@
 # B.A.S.S.
 # Basic Acronym Song Selector
+#
+# What is it?
+B.A.S.S. asks the user for a genre and a word/phrase/sentence. It will create a private Spotify playlist with one song that begins with each letter in the user's string. All the songs will be in the user's specified genre. This is a fun and quirky way to discover new tracks in a specific genre, while controlling the number of songs in the playlist. Playlist name is the user string + the user genre, so you can get creative with the word/phrase/sentence and genre combinations. Enjoy!
 
 # 1st Time Note:
 You will need to set up the developer access with Spotify and get your own Client ID and Client Secret.
